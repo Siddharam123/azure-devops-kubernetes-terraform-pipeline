@@ -2,7 +2,7 @@ trigger:
 - main
 
 pool:
-  Vmname: Azure Pipelines
+  vmImage: ubuntu-latest
 
 steps:
 - script: echo Hello, world!
